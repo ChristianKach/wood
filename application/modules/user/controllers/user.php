@@ -48,12 +48,5 @@ class User extends MX_Controller {
         redirect('user/connexion');
     }
 
-    
-
-    
-
-
 }
-
-/* End of file home.php */
-/* Location: ./application/modules/home/controllers/home.php */ ?>
+?>

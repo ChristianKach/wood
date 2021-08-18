@@ -41,36 +41,30 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
-$route['adherant/import-adherant'] = "adherant/importadherant";
-$route['adherant/delete-many'] = "adherant/deletemany";
-$route['adherant/send-sms-process'] = "adherant/sendsmsprocess";
-$route['adherant/sms-sending-state'] = "adherant/getsmssendingstate";
+$route['bois/delete-many'] = "bois/deletemany"; 
+$route['klef/delete-many'] = "klef/deletemany"; 
+$route['type_bois/delete-many'] = "type_bois/deletemany"; 
+$route['stabilite/delete-many'] = "stabilite/deletemany"; 
+$route['categorie/delete-many'] = "categorie/deletemany"; 
+$route['charge/delete-many'] = "charge/deletemany"; 
+$route['preparationpassage/delete-many'] = "preparationpassage/deletemany"; 
+$route['passage/delete-many'] = "passage/deletemany"; 
+$route['majoration/delete-many'] = "majoration/deletemany"; 
+$route['poincon/delete-many'] = "poincon/deletemany"; 
+$route['poutre/delete-many'] = "poutre/deletemany"; 
+$route['compression/delete-many'] = "compression/deletemany"; 
+$route['traction/delete-many'] = "traction/deletemany"; 
+$route['flexion_simple/delete-many'] = "flexion_simple/deletemany"; 
+$route['flexion_compose/delete-many'] = "flexion_compose/deletemany"; 
+$route['emb_arriere/delete-many'] = "emb_arriere/deletemany"; 
+$route['emb_avant/delete-many'] = "emb_avant/deletemany"; 
+$route['emb_double/delete-many'] = "emb_double/deletemany"; 
+$route['poteau_centre/delete-many'] = "poteau_centre/deletemany"; 
+$route['panne/delete-many'] = "panne/deletemany"; 
+$route['statistique/delete-many'] = "statistique/deletemany";
+$route['resultat/delete-many'] = "resultat/deletemany";
+$route['coefficient/delete-many'] = "coefficient/deletemany";
 
-$route['package/delete-many'] = "package/deletemany";
-
-$route['articletype/delete-many'] = "articletype/deletemany";
-
-$route['article/delete-many'] = "article/deletemany";
-
-$route['materiel/delete-many'] = "materiel/deletemany";
-
-$route['batiment/delete-many'] = "batiment/deletemany";
-
-$route['salle/delete-many'] = "salle/deletemany";
-
-$route['salleadherant/add-in-salle'] = "salleadherant/addinsalle";
-
-$route['semaine/delete-many'] = "semaine/deletemany";
-
-$route['meditation/delete-many'] = "meditation/deletemany";
-
-$route['presence/add-meditation'] = "presence/addmeditation";
-
-$route['malade/delete-many'] = "malade/deletemany";
-
-$route['traitement/delete-many'] = "traitement/deletemany";
-
-$route['famille/delete-many'] = "famille/deletemany";
 
 
 /* End of file routes.php */

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Zoe Ministrie!<?php echo (isset($title) ? ' - '.$title : ''); ?></title>
+    <title>Wood!<?php echo (isset($title) ? ' - '.$title : ''); ?></title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/template/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -52,12 +52,12 @@
 
   <body class="nav-md">
     <div class="container body">
-      <div class="main_container" style="background: #1b74b2;">
+      <div class="main_container" style="border: 0; background: #a77d46;">
         <div class="col-md-3 left_col">
-          <div class="left_col scroll-view">
-            <div class="navbar nav_title" style="border: 0; background: #1b74b2;">
+          <div class="left_col scroll-view" style="border: 0; background: #a77d46;">
+            <div class="navbar nav_title" style="border: 0; background: #a77d46;">
               <a href="<?php echo site_url(); ?>" class="site_title">
-               <img width="35" height="35" src="<?php echo base_url(); ?>assets/images/logo.png"> <span>Zoe Ministries!</span></a>
+               <img width="35" height="35" src="<?php echo base_url(); ?>assets/images/bois.png"> <span>Wood!</span></a>
             </div>
 
             <div class="clearfix"></div>

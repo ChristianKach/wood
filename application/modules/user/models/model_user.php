@@ -6,7 +6,6 @@ class Model_user extends CI_Model {
         parent::__construct();
     }
 
-
     public function checkConnexion($user_username, $user_password) {
        $this->db->select('user_id, user_username, role.role_libelle')->from('user');
        $this->db->join('role', 'role.role_id = user.role_id');
@@ -16,13 +15,5 @@ class Model_user extends CI_Model {
        if(!$data = $query->first_row()) return false;
        else return $data;
     }
-
-    
-
-
-    
-
 }
-
-/* End of file model_programme.php */
-/* Location: ./application/modules/common/models/model_commune.php */ ?>
+?>

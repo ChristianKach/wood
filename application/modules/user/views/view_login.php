@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Connexion | Zoe Ministrie</title>
+    <title>Connexion | Wood</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/template/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <a href="<?php echo site_url('home'); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" /></a>
+            <a href="<?php echo site_url('home'); ?>"><img src="<?php echo base_url(); ?>assets/images/bois.png" /></a>
             <form method="post" action="<?php echo site_url('user/connexion'); ?>">
               <h1>Connexion</h1>
 
@@ -55,15 +55,12 @@
               <div class="clearfix"></div>
 
               <div class="separator">
-                <!-- <p class="change_link">New to site?
-                  <a href="#signup" class="to_register"> Create Account </a>
-                </p> -->
 
                 <div class="clearfix"></div>
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-home"></i> Zoe Ministries!</h1>
+                  <h1><i class="fa fa-home"></i> Wood!</h1>
                   <p>©2017 All Rights Reserved. Propulsé par <a href="http://www.matlle.com">Matlle</a></p>
                 </div>
               </div>

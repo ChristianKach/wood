@@ -1,7 +1,7 @@
  <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Zoe Ministrie - Propulsé par <a href="http://www.matlle.com" target="_blank">Matlle</a>
+            Wood - Propulsé par <a href="http://www.matlle.com" target="_blank">Matlle</a>
           </div>
           <div class="clearfix"></div>
         </footer>
